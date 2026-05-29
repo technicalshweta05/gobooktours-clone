@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gobooktours Clone</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <!-- TOP HEADER -->
+    <div class="top-bar">
+        <div class="container top-bar-flex">
+
+            <div class="top-left">
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    +91 97179 30209
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                    info@gobooktours.com
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-clock"></i>
+                    Mon–Sat 9am–7pm IST
+                </a>
+            </div>
+
+            <div class="top-right">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="container">
+
+            <div class="navbar">
+
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="#">Gobooktours</a>
+                </div>
+
+                <!-- NAVIGATION -->
+                 
+
+               <!-- <div class="menu-close">&times;</div> -->
+                <nav class="nav-menu">
+
+                    <ul class="nav-links">
+
+                        <!-- DESTINATIONS -->
+                        <li class="mega-parent">
+
+                            <a href="#">
+                                Destinations
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+
+                            <!-- DESTINATION MEGA MENU -->
+                            <div class="mega-menu destination-menu">
+
+                                <div class="mega-close">&times;</div>
+
+                                <div class="country-tabs">
+                                    <button class="country-btn active">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        India
+                                    </button>
+
+                                    <button class="country-btn">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Bhutan
+                                    </button>
+
+                                    <button class="country-btn">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Nepal
+                                    </button>
+                                </div>
+
+                                <div class="destination-title">
+                                    <h4>DESTINATIONS</h4>
+                                </div>
+
+                                <div class="destination-grid">
+
+                                    <ul>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Rajasthan</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Uttar Pradesh</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Andhra Pradesh</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Arunachal Pradesh</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Assam</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Bihar</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Goa</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Gujarat</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Himachal Pradesh</a></li>
+                                    </ul>
+
+                                    <ul>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Karnataka</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Kerala</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Madhya Pradesh</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Maharashtra</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Odisha</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Punjab</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Sikkim</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Tamil Nadu</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Telangana</a></li>
+                                    </ul>
+
+                                    <ul>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Uttarakhand</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> West Bengal</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Delhi</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Ladakh</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Jammu and Kashmir</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Meghalaya</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> Andaman and Nicobar Islands</a></li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                        <!-- TRAVEL STYLES -->
+                        <li class="mega-parent travel-parent">
+
+                            <a href="#">
+                                Travel Styles
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+
+                            <div class="mega-menu travel-menu">
+
+                                <div class="mega-close">&times;</div>
+
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i></i>Adventure Tours</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Beach</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Buddhist Pilgrimages</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Golden Triangle</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Hiking and Tracking</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Historical Monuments</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Luxury</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Pilgrimage</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Religious</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Romantic Getaway</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Wildlife Safaris</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-compass"></i>Cultural Heritage</a></li>
+                                </ul>
+
+                            </div>
+
+                        </li>
+
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <!-- RIGHT -->
+                <div class="header-right">
+
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <a href="#" class="plan-btn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Plan Your Trip
+                    </a>
+
+                    <!-- MOBILE HAMBURGER -->
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- =========================
+HERO SECTION
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-slider">
+
+        <!-- SLIDE 1 -->
+
+        <div class="hero-slide active">
+
+            <img src="images/slider 1.jpg" alt="">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="hero-content" data-aos="zoom-in">
+
+                    <div class="hero-subtitle">
+                        <span></span>
+                        Incredible India
+                    </div>
+
+                    <h1>
+                        The Taj at <span>Dawn</span>
+                    </h1>
+
+                    <p>
+                        Stand before the world's most iconic monument as the first
+                        light transforms marble into gold.
+                    </p>
+
+                    <div class="hero-btns">
+
+                        <a href="#" class="hero-btn primary-btn">
+                            <i class="fa-solid fa-compass"></i>
+                            Explore India
+                        </a>
+
+                        <a href="#" class="hero-btn secondary-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Plan My Trip
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SLIDE 2 -->
+
+        <div class="hero-slide">
+
+            <img src="images/slider 2.jpg" alt="">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="hero-content" data-aos="zoom-in">
+
+                    <div class="hero-subtitle">
+                        <span></span>
+                        Mystical Bhutan
+                    </div>
+
+                    <h1>
+                        Bhutan, the<span>Last Shangri-La</span>
+                    </h1>
+
+                    <p>
+                        Discover peaceful valleys, fortress monasteries and living Himalayan traditions in the Land of Happiness.
+                    </p>
+
+                    <div class="hero-btns">
+
+                        <a href="#" class="hero-btn primary-btn">
+                            <i class="fa-solid fa-compass"></i>
+                            Explore India
+                        </a>
+
+                        <a href="#" class="hero-btn secondary-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Plan My Trip
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SLIDE 3 -->
+
+        <div class="hero-slide">
+
+            <img src="images/slider 3.jpg" alt="">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="hero-content" data-aos="zoom-in">
+
+                    <div class="hero-subtitle">
+                        <span></span>
+                        Adventure Nepal
+                    </div>
+
+                    <h1>
+                        Nepal's <span>Himalayan</span> Grandeur
+                    </h1>
+
+                    <p>
+                        Journey from Kathmandu to Everest viewpoints through alpine trails, mountain villages and prayer-flag ridgelines.
+                    </p>
+
+                    <div class="hero-btns">
+
+                        <a href="#" class="hero-btn primary-btn">
+                            <i class="fa-solid fa-compass"></i>
+                            Explore India
+                        </a>
+
+                        <a href="#" class="hero-btn secondary-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Plan My Trip
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- HERO COUNTER -->
+
+    <div class="hero-counter-wrap">
+
+        <div class="container">
+
+            <div class="hero-counter">
+
+                <div class="counter-box">
+
+                    <h3 class="counter" data-target="1200">0</h3>
+
+                    <p>Tours Curated</p>
+
+                </div>
+
+                <div class="counter-box">
+
+                    <h3 class="counter" data-target="4000">0</h3>
+
+                    <p>Happy Travellers</p>
+
+                </div>
+
+                <div class="counter-box">
+
+                    <h3 class="counter" data-target="3">0</h3>
+
+                    <p>Countries</p>
+
+                </div>
+
+                <div class="counter-box">
+
+                    <h3 class="counter" data-target="12">0</h3>
+
+                    <p>Years of Experience</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- HERO DOTS -->
+
+    <div class="hero-dots">
+
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+    </div>
+
+    <!-- FLOATING CHAT -->
+
+    <div class="floating-chat">
+
+        <div class="chat-text">
+            We Are Here!
+        </div>
+
+        <div class="chat-icon">
+            <i class="fa-solid fa-comment"></i>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+EXPLORE SECTION
+========================= -->
+
+<section class="explore-section">
+
+    <div class="container">
+
+        <!-- SECTION TITLE -->
+
+        <div class="section-heading" data-aos="fade-up">
+
+            <div class="section-subtitle">
+                <span></span>
+                Where To Wander
+                <span></span>
+            </div>
+
+            <h2>Explore India by Region</h2>
+
+            <p>
+                Discover the diverse beauty of India through its regions from the
+                royal heritage of North India to the wildlife of Central India
+                and the cultural richness of South India. Choose your journey
+                and start exploring.
+            </p>
+
+        </div>
+
+        <!-- EXPLORE GRID -->
+
+        <div class="explore-grid">
+
+            <!-- CARD 1 -->
+
+            <div class="explore-card" data-aos="zoom-in">
+
+                <div class="explore-img">
+
+                    <img src="images/explore 1.jpg" alt="North India">
+
+                    <div class="explore-overlay"></div>
+
+                </div>
+
+                <div class="explore-content">
+
+                    <span>India</span>
+
+                    <h3>North India</h3>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="explore-card" data-aos="zoom-in" data-aos-delay="100">
+
+                <div class="explore-img">
+
+                    <img src="images/explore 2.jpg" alt="Central India">
+
+                    <div class="explore-overlay"></div>
+
+                </div>
+
+                <div class="explore-content">
+
+                    <span>India</span>
+
+                    <h3>Central India</h3>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="explore-card" data-aos="zoom-in" data-aos-delay="200">
+
+                <div class="explore-img">
+
+                    <img src="images/explore 3.jpg" alt="South India">
+
+                    <div class="explore-overlay"></div>
+
+                </div>
+
+                <div class="explore-content">
+
+                    <span>India</span>
+
+                    <h3>South India</h3>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 4 -->
+
+            <div class="explore-card" data-aos="zoom-in">
+
+                <div class="explore-img">
+
+                    <img src="images/explore 4.jpg" alt="West India">
+
+                    <div class="explore-overlay"></div>
+
+                </div>
+
+                <div class="explore-content">
+
+                    <span>India</span>
+
+                    <h3>West India</h3>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 5 -->
+
+            <div class="explore-card" data-aos="zoom-in" data-aos-delay="100">
+
+                <div class="explore-img">
+
+                    <img src="images/explore 5.jpg" alt="East India">
+
+                    <div class="explore-overlay"></div>
+
+                </div>
+
+                <div class="explore-content">
+
+                    <span>India</span>
+
+                    <h3>NorthEast India</h3>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 6 -->
+
+            <div class="explore-card" data-aos="zoom-in" data-aos-delay="200">
+
+                <div class="explore-img">
+
+                    <img src="images/explore 6.jpg" alt="North East India">
+
+                    <div class="explore-overlay"></div>
+
+                </div>
+
+                <div class="explore-content">
+
+                    <span>India</span>
+
+                    <h3>East India</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+INTEREST SECTION
+========================= -->
+
+<section class="interest-section">
+
+    <div class="container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="interest-heading" data-aos="fade-up">
+
+            <div class="interest-subtitle">
+                <span></span>
+                Travel By Interest
+            </div>
+
+            <h2>Choose the Journey Style That Fits You Best</h2>
+
+            <p>
+                Explore handpicked travel themes across India designed to
+                match your interests from wildlife safaris to cultural
+                journeys and relaxing beach escapes.
+            </p>
+
+        </div>
+
+        <!-- INTEREST GRID -->
+
+        <div class="interest-grid">
+
+            <!-- CARD 1 -->
+
+            <div class="interest-card" data-aos="fade-up">
+
+                <div class="interest-img">
+
+                    <img src="images/interest.jpg" alt="Wildlife Safaris">
+
+                </div>
+
+                <div class="interest-content">
+
+                    <span class="interest-tag">
+                        Wildlife Safaris
+                    </span>
+
+                    <h3>Wildlife Safaris</h3>
+
+                    <p>Wildlife Safaris Tour Packages</p>
+
+                    <div class="interest-badges">
+
+                        <a href="#">Curated tours</a>
+                        <a href="#">Local guides</a>
+                        <a href="#">Private travel</a>
+
+                    </div>
+
+                    <a href="#" class="interest-btn">
+                        Explore Theme
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="interest-card" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="interest-img">
+
+                    <img src="images/interest.jpg" alt="Cultural Heritage">
+
+                </div>
+
+                <div class="interest-content">
+
+                    <span class="interest-tag">
+                        Cultural Heritage
+                    </span>
+
+                    <h3>Cultural Heritage</h3>
+
+                    <p>Historical Monuments Tour Packages</p>
+
+                    <div class="interest-badges">
+
+                        <a href="#">Curated tours</a>
+                        <a href="#">Local guides</a>
+                        <a href="#">Private travel</a>
+
+                    </div>
+
+                    <a href="#" class="interest-btn">
+                        Explore Theme
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="interest-card" data-aos="fade-up">
+
+                <div class="interest-img">
+
+                    <img src="images/interest.jpg" alt="Beach">
+
+                </div>
+
+                <div class="interest-content">
+
+                    <span class="interest-tag">
+                        Beach
+                    </span>
+
+                    <h3>Beach</h3>
+
+                    <p>Relaxing Coastal Escapes</p>
+
+                    <div class="interest-badges">
+
+                        <a href="#">Curated tours</a>
+                        <a href="#">Local guides</a>
+                        <a href="#">Private travel</a>
+
+                    </div>
+
+                    <a href="#" class="interest-btn">
+                        Explore Theme
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 4 -->
+
+            <div class="interest-card" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="interest-img">
+
+                    <img src="images/interest.jpg" alt="Buddhist Pilgrimages">
+
+                </div>
+
+                <div class="interest-content">
+
+                    <span class="interest-tag">
+                        Buddhist Pilgrimages
+                    </span>
+
+                    <h3>Buddhist Pilgrimages</h3>
+
+                    <p>Sacred Spiritual Journey Tours</p>
+
+                    <div class="interest-badges">
+
+                        <a href="#">Curated tours</a>
+                        <a href="#">Local guides</a>
+                        <a href="#">Private travel</a>
+
+                    </div>
+
+                    <a href="#" class="interest-btn">
+                        Explore Theme
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+FEATURED SECTION
+========================= -->
+
+<section class="featured-section">
+
+    <div class="container">
+
+        <!-- SECTION HEADING -->
+
+        <div class="featured-heading" data-aos="fade-up">
+
+            <div class="featured-subtitle">
+                <span></span>
+                Handpicked Experiences
+                <span></span>
+            </div>
+
+            <h2>Featured Tour Packages</h2>
+
+            <p>
+                Every itinerary is crafted by our in-country experts — not algorithms.
+                Start with a favourite or let us build yours from scratch.
+            </p>
+
+        </div>
+
+        <!-- FEATURED GRID -->
+
+        <div class="featured-grid">
+
+            <!-- CARD 1 -->
+
+            <div class="featured-card" data-aos="fade-up">
+
+                <div class="featured-img">
+
+                    <img src="images/featured-1.jpg" alt="Golden Triangle">
+
+                    <span class="featured-tag">
+                        Luxury
+                    </span>
+
+                    <div class="wishlist-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="featured-content">
+
+                    <div class="featured-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            7 Days
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            India
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Luxury Golden Triangle Tour India 7 Days
+                    </h3>
+
+                    <p>
+                        Experience 7-day Luxury Golden Triangle tour India covering Delhi,
+                        Agra, Fatehpur Sikri, and Jaipur. Tour includes...
+                    </p>
+
+                    <div class="featured-bottom">
+
+                        <div class="featured-price">
+
+                            <span>From</span>
+
+                            <h4>
+                                USD 1,500
+                                <small>/person</small>
+                            </h4>
+
+                        </div>
+
+                        <a href="#" class="featured-btn">
+                            View Package
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="featured-img">
+
+                    <img src="images/featured-2.jpg" alt="Tiger Safari">
+
+                    <span class="featured-tag">
+                        Wildlife and Safaris
+                    </span>
+
+                    <div class="wishlist-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="featured-content">
+
+                    <div class="featured-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            12 Days
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            India
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Best Tiger Safari in India
+                    </h3>
+
+                    <p>
+                        Customizable private journey with flexible pacing and
+                        expert support.
+                    </p>
+
+                    <div class="featured-bottom">
+
+                        <div class="featured-price">
+
+                            <span>From</span>
+
+                            <h4>
+                                USD 2,500
+                                <small>/person</small>
+                            </h4>
+
+                        </div>
+
+                        <a href="#" class="featured-btn">
+                            View Package
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="featured-img">
+
+                    <img src="images/featured-3.jpg" alt="Varanasi Tour">
+
+                    <span class="featured-tag">
+                        Curated
+                    </span>
+
+                    <div class="wishlist-icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                </div>
+
+                <div class="featured-content">
+
+                    <div class="featured-meta">
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            8 Days
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            India
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Golden Triangle Tour with Varanasi
+                    </h3>
+
+                    <p>
+                        Visit the Taj Mahal, explore royal Jaipur, and experience
+                        the Ganges Aarti in Varanasi.
+                    </p>
+
+                    <div class="featured-bottom">
+
+                        <div class="featured-price">
+
+                            <span>From</span>
+
+                            <h4>
+                                USD 700
+                                <small>/person</small>
+                            </h4>
+
+                        </div>
+
+                        <a href="#" class="featured-btn">
+                            View Package
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SECTION BUTTON -->
+
+        <div class="featured-all-btn">
+
+            <a href="#">
+                <i class="fa-solid fa-compass"></i>
+                Explore All Tours
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+LUXURY SECTION
+========================= -->
+
+<section class="luxury-section">
+
+    <div class="container">
+
+        <div class="luxury-wrapper">
+
+            <!-- LEFT CONTENT -->
+
+            <div class="luxury-content" data-aos="fade-right">
+
+                <div class="luxury-subtitle">
+
+                    <span></span>
+                    Luxury Journeys
+
+                </div>
+
+                <h2>
+                    Private Luxury Tours with Exceptional Hotels, Guides and Pace
+                </h2>
+
+                <p>
+                    For travellers seeking a more elevated way to experience the
+                    region, our luxury departures combine refined stays,
+                    specialist guiding and private flexibility from arrival
+                    to departure.
+                </p>
+
+                <!-- FEATURES -->
+
+                <div class="luxury-features">
+
+                    <div class="luxury-feature">
+
+                        <i class="fa-solid fa-hotel"></i>
+                        4 and 5 star stays
+
+                    </div>
+
+                    <div class="luxury-feature">
+
+                        <i class="fa-solid fa-car-side"></i>
+                        Private vehicle and driver
+
+                    </div>
+
+                    <div class="luxury-feature">
+
+                        <i class="fa-solid fa-user-tie"></i>
+                        Specialist guides
+
+                    </div>
+
+                </div>
+
+                <!-- BUTTONS -->
+
+                <div class="luxury-btns">
+
+                    <a href="#" class="luxury-btn primary-luxury-btn">
+
+                        <i class="fa-solid fa-crown"></i>
+                        Explore Luxury Tours
+
+                    </a>
+
+                    <a href="#" class="luxury-btn secondary-luxury-btn">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Tailor My Luxury Trip
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT IMAGE -->
+
+            <div class="luxury-image-wrap" data-aos="fade-left">
+
+                <div class="luxury-image">
+
+                    <img src="images/luxury.jpg" alt="Luxury Tour">
+
+                </div>
+
+                <!-- OVERLAP BOX -->
+
+                <div class="luxury-info-box">
+
+                    <h3>Signature travel</h3>
+
+                    <p>
+                        Palace hotels, wellness retreats,
+                        heritage residences and seamless
+                        private departures.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+ABOUT SECTION
+========================= -->
+
+<section class="about-section">
+
+    <div class="container">
+
+        <div class="about-wrapper">
+
+            <!-- LEFT CONTENT -->
+
+            <div class="about-left" data-aos="fade-right">
+
+                <!-- SUBTITLE -->
+
+                <div class="about-subtitle">
+
+                    <span></span>
+                    About Gobooktours
+
+                </div>
+
+                <!-- TITLE -->
+
+                <h2>
+                    A Specialist Team for India,
+                    Nepal and Bhutan Journeys
+                </h2>
+
+                <!-- TEXT -->
+
+                <p class="about-text">
+                    This section sits before the broader trust blocks so new visitors
+                    understand who is behind the itineraries, how journeys are
+                    designed and why the brand is trusted across the region.
+                </p>
+
+                <!-- ABOUT ITEMS -->
+
+                <div class="about-items">
+
+                    <!-- ITEM 1 -->
+
+                    <div class="about-item">
+
+                        <div class="about-icon">
+
+                            <i class="fa-solid fa-map-location-dot"></i>
+
+                        </div>
+
+                        <div class="about-item-content">
+
+                            <h3>Destination-first planning</h3>
+
+                            <p>
+                                We start with seasons, road reality, altitude and
+                                local pacing before shaping the itinerary.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ITEM 2 -->
+
+                    <div class="about-item">
+
+                        <div class="about-icon">
+
+                            <i class="fa-solid fa-users"></i>
+
+                        </div>
+
+                        <div class="about-item-content">
+
+                            <h3>Human travel designers</h3>
+
+                            <p>
+                                Trips are crafted by specialists and local partners,
+                                not generated as one-size-fits-all packages.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ITEM 3 -->
+
+                    <div class="about-item">
+
+                        <div class="about-icon">
+
+                            <i class="fa-solid fa-headset"></i>
+
+                        </div>
+
+                        <div class="about-item-content">
+
+                            <h3>Support before and during travel</h3>
+
+                            <p>
+                                From the first shortlist to on-ground coordination,
+                                you have a real team behind every departure.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BUTTON -->
+
+                <a href="#" class="about-btn">
+
+                    <i class="fa-solid fa-arrow-right"></i>
+                    Learn More About Us
+
+                </a>
+
+            </div>
+
+            <!-- RIGHT BOX -->
+
+            <div class="about-right" data-aos="fade-left">
+
+                <div class="about-right-subtitle">
+
+                    Trusted Across The Region
+
+                </div>
+
+                <!-- INFO ITEM -->
+
+                <div class="about-info-item">
+
+                    <h3>12+</h3>
+
+                    <p>years crafting journeys</p>
+
+                </div>
+
+                <!-- INFO ITEM -->
+
+                <div class="about-info-item">
+
+                    <h3>80+</h3>
+
+                    <p>traveller source markets</p>
+
+                </div>
+
+                <!-- INFO ITEM -->
+
+                <div class="about-info-item">
+
+                    <h3>24/7</h3>
+
+                    <p>in-country assistance</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+WHY SECTION
+========================= -->
+<section class="why-section">
+    <div class="container">
+
+        <div class="why-heading">
+            <span class="sub-title">
+                <span></span>
+                WHY TRAVEL WITH US
+                <span></span>
+            </span>
+
+            <h2>The GoBookTours Difference</h2>
+
+            <p>
+                We don't just plan trips. We engineer memories — with local insight,
+                personal care and 12 years of Himalayan expertise.
+            </p>
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+                <div class="icon-box">
+                    <i class="fa-regular fa-compass"></i>
+                </div>
+
+                <h3>Expert Local Knowledge</h3>
+
+                <p>
+                    Our in-country specialists have trekked every trail and slept in
+                    every region — they know the hidden gems no guidebook mentions.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="icon-box">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <h3>Fully Tailor-Made</h3>
+
+                <p>
+                    Every itinerary is built around you — your pace, your passions,
+                    your budget. No group compromise required.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="icon-box">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <h3>Safe & Responsible Travel</h3>
+
+                <p>
+                    IATA-affiliated, fully insured and committed to ethical,
+                    community-first tourism that benefits local people.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="icon-box">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <h3>24 / 7 In-Country Support</h3>
+
+                <p>
+                    From arrival to departure, your dedicated tour manager is
+                    reachable any hour for guidance, changes or emergencies.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- =========================
+STORIES SECTION
+========================= -->
+<section class="stories-section">
+
+    <div class="container">
+
+        <div class="stories-heading">
+
+            <span class="section-tag">
+                <span></span>
+                WHAT TRAVELLERS SAY
+                <span></span>
+            </span>
+
+            <h2>Stories from the Road</h2>
+
+            <p>
+                15,000+ travellers from 80+ countries have journeyed with us.
+                Here are a few of their stories.
+            </p>
+
+        </div>
+
+        <div class="stories-grid">
+
+            <!-- Card 1 -->
+
+            <div class="story-card">
+
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <p class="review-text">
+                    GoBookTours crafted a Rajasthan tour so perfectly tailored to us
+                    that it felt like a personal expedition. Every hotel, every guide,
+                    every moment was extraordinary.
+                </p>
+
+                <div class="story-footer">
+
+                    <div class="reviewer">
+
+                        <div class="reviewer-avatar">
+                            J
+                        </div>
+
+                        <div class="reviewer-info">
+                            <h4>James & Sarah T.</h4>
+                            <span>London, UK</span>
+                        </div>
+
+                    </div>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="story-card">
+
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <p class="review-text">
+                    Our Nepal trek was the trip of a lifetime. The logistics were
+                    seamless, the guides phenomenally knowledgeable, and the Himalayas
+                    were everything we dreamed of.
+                </p>
+
+                <div class="story-footer">
+
+                    <div class="reviewer">
+
+                        <div class="reviewer-avatar">
+                            M
+                        </div>
+
+                        <div class="reviewer-info">
+                            <h4>Michael Hoffmann</h4>
+                            <span>Munich, Germany</span>
+                        </div>
+
+                    </div>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="story-card">
+
+                <div class="quote-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+
+                <p class="review-text">
+                    I've travelled to 40+ countries and Bhutan with GoBookTours was
+                    among the most profound experiences. They understand the culture
+                    deeply and it shows.
+                </p>
+
+                <div class="story-footer">
+
+                    <div class="reviewer">
+
+                        <div class="reviewer-avatar">
+                            P
+                        </div>
+
+                        <div class="reviewer-info">
+                            <h4>Priya Nair</h4>
+                            <span>Singapore</span>
+                        </div>
+
+                    </div>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+JOURNAL SECTION
+========================= -->
+<section class="journal-section">
+
+    <div class="container">
+
+        <!-- Heading Row -->
+
+        <div class="journal-top">
+
+            <div class="journal-heading">
+
+                <span class="section-tag">
+                    <span></span>
+                    TRAVEL INSPIRATION
+                    <span></span>
+                </span>
+
+                <h2>From Our Travel Journal</h2>
+
+                <p>
+                    Expert guides, destination deep-dives and real traveller
+                    stories to spark your next adventure.
+                </p>
+
+            </div>
+
+            <a href="#" class="journal-btn">
+                <i class="fa-solid fa-book-open"></i>
+                All Articles
+            </a>
+
+        </div>
+
+        <!-- Journal Card -->
+
+        <div class="journal-grid">
+
+            <article class="journal-card">
+
+                <div class="journal-image">
+
+                    <img src="images/journal.jpg" alt="National Parks">
+
+                </div>
+
+                <div class="journal-content">
+
+                    <span class="journal-category">
+                        Wildlife & Nature
+                    </span>
+
+                    <h3>
+                        10 Best National Parks in India for Tiger Safaris
+                    </h3>
+
+                    <p>
+                        Discover the 10 best national parks in India for tiger
+                        safaris with travel tips, best seasons and where to spot
+                        majestic Bengal tigers in the wild.
+                    </p>
+
+                    <div class="journal-meta">
+
+                        <span>
+                            <i class="fa-regular fa-calendar"></i>
+                            Mar 2026
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            5 min read
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+DREAM SECTION
+========================= -->
+<section class="dream-section">
+
+    <div class="container">
+
+        <div class="dream-content">
+
+            <span class="dream-tag">
+                <span></span>
+                START YOUR JOURNEY
+                <span></span>
+            </span>
+
+            <h2>Your Dream Itinerary Awaits</h2>
+
+            <p>
+                Share your travel wishlist and our expert travel designers will craft
+                a bespoke journey just for you — no cookie-cutter tours.
+            </p>
+
+            <div class="dream-buttons">
+
+                <a href="#" class="dream-btn primary-btn">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    Start Planning
+                </a>
+
+                <a href="#" class="dream-btn secondary-btn">
+                    <i class="fa-solid fa-circle-play"></i>
+                    Browse All Tours
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+FOOTER SECTION
+========================= -->
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <!-- Column 1 -->
+
+            <div class="footer-about">
+
+                <h2>Gobooktours</h2>
+
+                <p class="footer-quote">
+                    "Travel is the only thing you buy that makes you richer."
+                    <br>
+                    — We make that purchase count.
+                </p>
+
+                <ul class="footer-contact">
+
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        India | Nepal | Bhutan
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        +91 97179 30209
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@gobooktours.com
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        WhatsApp Us
+                    </li>
+
+                </ul>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+
+                </div>
+
+            </div>
+
+            <!-- Column 2 -->
+
+            <div class="footer-links">
+
+                <h4>Destinations</h4>
+
+                <ul>
+
+                    <li><a href="#">North India</a></li>
+                    <li><a href="#">Ranthambore</a></li>
+                    <li><a href="#">Bandhavgarh</a></li>
+                    <li><a href="#">Varanasi</a></li>
+                    <li><a href="#">Mumbai</a></li>
+                    <li><a href="#">Udaipur</a></li>
+                    <li><a href="#">Kerala</a></li>
+                    <li><a href="#">Northeast India</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 3 -->
+
+            <div class="footer-links">
+
+                <h4>Travel Styles</h4>
+
+                <ul>
+
+                    <li><a href="#">Cultural Heritage</a></li>
+                    <li><a href="#">Wildlife Safaris</a></li>
+                    <li><a href="#">Historical Monuments</a></li>
+                    <li><a href="#">Golden Triangle</a></li>
+                    <li><a href="#">Beach</a></li>
+                    <li><a href="#">Luxury</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Romantic Getaway</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 4 -->
+
+            <div class="footer-newsletter">
+
+                <h4>Travel Inspiration</h4>
+
+                <p>
+                    Get hand-picked destination guides, seasonal deals and
+                    expert travel tips delivered to your inbox.
+                </p>
+
+                <form class="newsletter-form">
+
+                    <input type="email" placeholder="Your email address">
+
+                    <button type="submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                </form>
+
+                <span class="trust-title">
+                    Trusted & Certified
+                </span>
+
+                <div class="trust-badges">
+
+                    <div class="badge">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        SSL Secure
+                    </div>
+
+                    <div class="badge">
+                        <i class="fa-solid fa-star"></i>
+                        4.9/5 Rated
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 <strong>GoBookTours.</strong>
+                All rights reserved. Crafting extraordinary journeys across India,
+                Nepal & Bhutan.
+            </p>
+
+            <ul class="footer-policy">
+
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Cancellation Policy</a></li>
+                <li><a href="#">Sitemap</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+
+</body>
+</html>
